@@ -1,0 +1,5 @@
+Model,R2,RMSE,rRMSE(%),MAE,Train_Time(s),Predict_Time(s),Model_Size(MB),PCA_Dim,Best_Params
+MLR,0.1903,4.1791,12.66,3.2951,9.154,0.776,0.002,,{'model__fit_intercept': True}
+RF,0.8251,1.9423,5.88,1.3842,5.693,0.905,15.044,,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 300}"
+SVR,0.5384,3.1553,9.55,2.3952,0.213,0.054,0.11,,"{'model__C': 100, 'model__epsilon': 0.5, 'model__gamma': 'auto', 'model__kernel': 'rbf'}"
+XGB,0.9059,1.4247,4.31,0.846,37.1,0.659,1.784,,"{'model__colsample_bytree': 0.8, 'model__learning_rate': 0.05, 'model__max_depth': 9, 'model__min_child_weight': 3, 'model__n_estimators': 300, 'model__subsample': 1.0}"
